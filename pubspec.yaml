@@ -1,0 +1,43 @@
+name: todo_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  sqflite: ^2.0.0+4
+  bloc: ^7.1.0
+  flutter_bloc: ^7.1.0
+  flutter_slidable: ^0.6.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Source Sans Pro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
+
+
+    - family: Source Sans Pro Bold
+      fonts:
+        - asset: fonts/SourceSansPro-Black.ttf
+
+    - family: NotoSans
+      fonts:
+        - asset: fonts/NotoSans-Regular.ttf
+
+    - family: Helvetica
+      fonts:
+        - asset: fonts/helvetica-heavy.ttf
+
+
